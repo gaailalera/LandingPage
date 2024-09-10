@@ -1,6 +1,6 @@
 /** global element styling **/
 
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #F5CBA7;
 }
 
@@ -27,8 +27,6 @@ a {
   text-decoration: none;
 }
 
-/** global classes styling **/
-
 .container {
   max-width: 1000px;
   width: 100%;
@@ -40,15 +38,19 @@ a {
   height: 40px;
   font-size: 1em;
   font-weight: 900;
-  text-transform: ;
   border: 3px black solid;
-  border-radius: 2px;
+  border-radius: 10px;
   background: transparent;
   cursor: pointer;
 }
 
 .grid {
   display: flex;
+  margin-bottom: 5px;
+}
+.grid hr {
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 header {
@@ -99,7 +101,7 @@ header {
 
 
 nav {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 @media (max-width: 650px) {
@@ -143,18 +145,20 @@ nav > ul {
 #hero > h2 {
   margin-bottom: 20px;
   word-wrap: break-word;
+
 }
 
 #hero input[type='email'] {
   max-width: 275px;
   width: 100%;
-  padding: 5px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 #hero input[type='submit'] {
   max-width: 150px;
   width: 100%;
-  height: 30px;
+  height: 35px;
   margin: 15px 0;
   border: 0;
   background-color: #f1c40f;
@@ -289,6 +293,7 @@ nav > ul {
 }
 
 footer {
+ 
   margin-top: 30px;
   background-color:  #D26136;
   padding: 20px;
